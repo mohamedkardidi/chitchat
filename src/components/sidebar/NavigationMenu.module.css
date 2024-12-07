@@ -1,0 +1,30 @@
+.nav {
+  margin-top: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 12px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.menuItem:hover {
+  background-color: #e9ecef;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.active:hover {
+  background-color: #0056b3;
+}

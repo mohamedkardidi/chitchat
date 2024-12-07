@@ -1,0 +1,9 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 100vh;
+  background-color: #ffffff; /* Match background with MessageList */
+  padding: 10px; /* Consistent padding */
+  border-right: 1px solid #e9ecef;
+}
